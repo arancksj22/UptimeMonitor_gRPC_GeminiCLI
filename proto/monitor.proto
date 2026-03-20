@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package monitor;
+
+service MonitorService {
+  rpc GetStatus (StatusRequest) returns (StatusResponse);
+}
+
+message StatusRequest {
+  string service_name = 1;
+}
+
+message StatusResponse {
+  string status = 1;
+  string last_check = 2;
+}
