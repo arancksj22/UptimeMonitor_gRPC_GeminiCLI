@@ -1,7 +1,7 @@
 {
   "name": "uptimemonitor_grpc_geminicli",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple Node.js gRPC Uptime Monitor demonstration using TypeScript and Protocol Buffers.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
